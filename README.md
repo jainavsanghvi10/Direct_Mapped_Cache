@@ -1,12 +1,15 @@
 # Assignment Overview
-Designed a Direct Mapped Cache of different stages:\ 
+Designed a Direct Mapped Cache in different stages(for the following experiments): 
+\
 (a) Cache size: 64kilobytes, Block size: 4 bytes.\
-(b) Increased the cache size to 512kB, Block size: 4 bytes. Noted the change in hit/miss rates \
-(c) Keeping the cache size at 64kB, varied the block size from 1 byte, 4 bytes,8 bytes, 16 bytes, 32 bytes (the number of cache lines will reduce, if we increase the block size keeping the cache size same).\
-(Assumed a 32 bit address) 
+(b) Increased the cache size to 512kB, Block size: 4 bytes. \
+(c) Keeping the cache size at 64kB, varied the block size from 1 byte, 4 bytes,8 bytes, 16 bytes, 32 bytes (the number of cache lines will reduce, if we increase the block size keeping the cache size same).
+
+* Noted the change in hit/miss rates
+* Assumed a 32 bit address 
 # Input Files:
 5 Trace Files.
-### About Trace Files
+### About the Trace Files
 The trace file will specify all the  memory accesses/addresses that occur in a certain program. Each line in the trace file will specify a new memory reference and has the following fields:
 * Access Type: A single character indicating whether the access is a load ('l') or a store ('s'). We can ignore this field
 * Address: A 32-bit integer (in unsigned hexadecimal format) specifying the memory address that is being accessed. This is the only field we need.
